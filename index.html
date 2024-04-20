@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="app--box">
+        <h4 class="main-heading">Enter your text or URL</h4>
+        <input type="text" class="text-field" placeholder="Text or URL" />
+        <div class="code--container">
+          <!-- <img
+            src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;size=150x150"
+            alt=""
+            title=""
+          /> -->
+        </div>
+        <button class="btn--generate">Generate QR Code</button>
+      </div>
+    </div>
+    <footer>
+      <p class="copyright">
+        &copy; Copyright by
+        <a
+          class="twitter-link"
+          target="_blank"
+          href="https://twitter.com/saadialakhany"
+        >
+          Saadia Lakhany</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
